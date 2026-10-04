@@ -306,7 +306,7 @@ FACT by means of iteration.
 Note that the SCHEME DO loop in FACT has no body -- the stepping
 functions do all the work.  The ALGOL DO loop has an assignment
 in its body; because an ALGOL DO loop can step only one variable,
-we need the assignment to step the the variable "manually".
+we need the assignment to step the variable "manually".
 	In reality the SCHEME DO construct is not a primitive;
 it is a macro which expands into a function which performs
 the iteration by tail-recursion.

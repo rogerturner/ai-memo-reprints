@@ -1701,11 +1701,11 @@ approximates the derivative of the first.
 .nofill
 .spw 13
 .block 5
-1     (DEFINE (DERIVATIVE F Ø)
+1     (DEFINE (DERIVATIVE F ï¿½)
 	     (LAMBDA (X)
-		     (/ (- (F (+ X Ø))
+		     (/ (- (F (+ X ï¿½))
 			   (F X))
-			Ø)))
+			ï¿½)))
 .spw 16
 .adjust
 .sp
@@ -3611,7 +3611,7 @@ the universal machine is 1APPLY*.
 is to construct a generator for pseudo-random numbers with a Gaussian
 distribution by adding up a large number of uniformly distributed
 pseudo-random numbers.
-We would like to write it in roughly as in Figure N3.
+We would like to write it roughly as in Figure N3.
 .sp
 .block 10
 .pscore -24

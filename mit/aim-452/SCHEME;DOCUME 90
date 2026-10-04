@@ -487,7 +487,7 @@ current dynamic environment.
 .sp
 	The value of this is the value of the lexical identifier;
 writing this is the same as writing just 1<identifier>0
-{Note What Good Is It?}.
+{Note What Use Is It?}.
 
 .sp 2
 .block 4
@@ -1919,7 +1919,7 @@ This is an informal indication that normal order is less useful
 (or at least less powerful)
 in a programming language than applicative order.
 We also noted in [SCHEME] that normal order iterations
-tend to consume more space that applicative order iterations,
+tend to consume more space than applicative order iterations,
 because of the buildup of thunk structure.
 Given that one can simulate normal order in applicative order by
 explicitly creating closures [Imperative], there seems to be little
